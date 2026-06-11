@@ -17,17 +17,7 @@ const cityIcons = ['🗽', '🗼', '🏛️', '🏰', '🏛️', '🕌']
 export default function Footer() {
 return (
   <footer className="relative bg-[#0b0b0b] overflow-hidden">
-    {/* Background Texture */}
-    <div
-      className="absolute inset-0 opacity-30"
-      style={{
-        backgroundImage: `url(${footerBg1})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
-    />
-
-    {/* Purple Decorative Circle */}
+<div className="absolute inset-0 bg-gradient-to-b from-zinc-900 via-black to-black opacity-80" />
     <div className="absolute left-[18%] bottom-[100px] w-[280px] h-[280px] rounded-full bg-purple-900/20 blur-sm" />
 
     <div className="relative z-10 max-w-[1200px] mx-auto px-8">
